@@ -1,0 +1,24 @@
+{
+  "courses": [
+    {
+      "name": "Javascript basics",
+      "desc": "Javascript basics description...",
+      "id": 1
+    },
+    {
+      "name": "HTML/ CSS basics",
+      "desc": "HTML/ CSS basics description",
+      "id": 2
+    },
+    {
+      "name": "Thiết kế web Responsive",
+      "desc": "Thiết kế web Responsive description.....",
+      "id": 3
+    },
+    {
+      "name": "HTML/ CSS Tips",
+      "desc": "HTML/ CSS Tips Description...",
+      "id": 4
+    }
+  ]
+}
