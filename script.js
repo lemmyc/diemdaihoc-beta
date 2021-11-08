@@ -1,5 +1,5 @@
 
-var courseAPI = 'https://my-json-server.typicode.com/lemmyc/diemdaihoc-beta/db';
+var courseAPI = 'https://my-json-server.typicode.com/lemmyc/diemdaihoc-beta';
 var isEditMode = -1;
 var currentEditCourse = -1;
 // var courseName = '';
