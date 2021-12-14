@@ -25,17 +25,50 @@
   text-align: center;
   font-size: 2.4rem;
 }
-.indicator{
+.paginations{
+  margin: 0 16px 0 0;
   position: fixed;
-  right: 1rem;
-  top: 50%;
-  z-index: 2;
+  height: 100vh;
+  right: 0;
+  z-index: 3;
+  font-size: 1rem;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+.paginations ul{
+  list-style-type: none;
+  text-align: right;
+}
+.paginations ul li{
+  margin: 4px 4px;
+  min-width: 120px;
+  min-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+}
+.paginations ul li span{
+  display: none;
+  flex: 1;
+}
+.paginations .circle{
+  font-size: .5rem;
+  cursor: pointer;
+  margin: auto 4px;
+  color: #333
+}
+.paginations ul li.enable span{
+  display: block;
+  flex: 1;
 }
 .report-bug{
   position: fixed;
   right: 1rem;
   bottom: 1rem;
-  z-index: 2;
+  z-index: 3;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 .homepage{
   width: 100vw;
@@ -93,7 +126,7 @@
 }
 .container{
   position: relative;
-  z-index: 2;
+  z-index: 1;
   text-align: center;
 }
 .page-title{
