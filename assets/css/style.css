@@ -138,3 +138,23 @@
 .page-desc{
   font-size: 1rem;
 }
+.small-res{
+  font-family: sans-serif;
+  background-color: tomato;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+}
+@media (max-width: 63.9375em){
+  .app{
+    display: none;
+  }
+  .small-res{
+    display: flex;
+  }
+}
